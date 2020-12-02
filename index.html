@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Links To Implemntation Front End Devdelopment</title>
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+  <script src="https://kit.fontawesome.com/7dc3015a44.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <link rel="stylesheet" href="../css/cards.css">
+</head>
+<style>
+  @media only screen and (max-width: 1200px) {
+    .navbar-item {
+      color: #333;
+    }
+  }
+</style>
+
+<body>
+
+  <!-- START NAV -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+          <!-- <img src="https://cdn.emk.dev/templates/bulma-logo-light.png" alt="Logo"> -->
+          IMPORTANT LINKS
+        </a>
+        <span class="navbar-burger burger" data-target="navbarMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+      <div id="navbarMenu" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="https://alligator.io/" target="_blank">
+            Angular
+          </a>
+          <a class="navbar-item"
+            href="https://www.flaticon.com/?fbclid=IwAR3pwMFgqdcjc8jyBlZNt5I-zhV_rVQHAmTs8M85J7Z6eTSutYhQHAW9_MQ"
+            target="_blank">
+            Icon
+          </a>
+          <a class="navbar-item" href="https://akveo.github.io/nebular/" target="_blank">
+            Nebular Theme
+          </a>
+          <a class="navbar-item" href="https://akveo.github.io/ngx-admin/" target="_blank">
+            Ngx Admin
+          </a>
+          <a class="navbar-item" href="https://www.figma.com/" target="_blank">
+            Figma
+          </a>
+          <a class="navbar-item" href="https://developers.google.com/blockly" target="_blank">
+            Blockly
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- END NAV -->
+
+  <div class="container">
+    <div class="section">
+      <div class="columns">
+        <div class="column has-text-centered" style="padding: 80px;">
+          <h1 class="title" style="color: ghostwhite;">Links To Implementation Front End Devdelopment</h1><br>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <div class="soc">
+          <a href="https://github.com/safaaaly246"><i class="fa fa-github-alt fa-lg" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-youtube fa-lg" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100024275720859"><i class="fa fa-facebook fa-lg"
+              aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+        </div>
+        <p>
+          <strong>Bulma</strong> by <a href="https://github.com/safaaaly246">Safaa Ali</a>.
+          The source code is licensed <a href="">MIT</a>. <br>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/bulma.js"></script>
+
+  <!-- <script src="../js/cardsData.js"></script> -->
+
+  <!-- Using Vue to populate cards to reduce redundant code -->
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        cardData: cardsData
+      }
+    })
+
+  </script>
+</body>
+
+</html>
